@@ -15,6 +15,8 @@ class InternetBanking(Payment):
     print("Paying via internet banking")
 
 # If we need to extend the payment method to UPI just implement UPI class
+# Here we are extending payment methods without modifying the existing classes.
+# The makePayment class implements the "payment" method
 
 class UPI(Payment):
   def payment(self):
