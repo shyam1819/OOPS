@@ -5,6 +5,10 @@ class Payment(ABC):
   def payment():
     pass
 
+# Below payment classes implements the above abstract class.
+# These classes overrides the "payment" method of the abstract class. This is called method overriding.
+
+
 
 class CreditCard(Payment):
   def payment(self):
